@@ -15,7 +15,7 @@ import servidor.runnables.client;
 public class server {
     private static ArrayList<String> clients;
     
-    public static void main(){
+    public static void main(String[] args){
         clients = new ArrayList<>();
         try {
             ServerSocket server = new ServerSocket(1112);
